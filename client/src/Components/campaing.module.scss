@@ -1,0 +1,35 @@
+.itemWrap{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    grid-template-columns: 4fr 2fr 2fr 2fr;
+    column-gap: 0;
+    margin-top: 10px;
+    .itemCell{
+        // border: 1px solid red;
+        cursor: pointer;
+    }
+}
+
+.ButtonItemWrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.buttonsForm{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.invis{
+    appearance: none;
+}
