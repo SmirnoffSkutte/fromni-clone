@@ -2,7 +2,7 @@
 
 
 Запустить сервер:
-yarn dev   npm dev
+yarn dev или npm dev
 
 Клиент:
-yarn start  npm start
+yarn start или npm start
