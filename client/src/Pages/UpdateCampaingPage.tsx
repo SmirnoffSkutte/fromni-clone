@@ -26,10 +26,10 @@ export default function UpdateCampaingPage({}: Props) {
     setVkState({...data})
   }
   const getWhatsappData:any=(data)=>{
-    setVkState({...data})
+    setWhatsappState({...data})
   }
   const getTelegramData:any=(data)=>{
-    setVkState({...data})
+    setTelegramState({...data})
   }
 
   // let allData={}
